@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is JSX and how does it relate to React components?",
+    "options": [
+      "A syntax extension for JavaScript",
+      "A CSS preprocessor",
+      "A state management tool",
+      "A testing library"
+    ],
+    "answer": "A syntax extension for JavaScript"
+  },
+  {
+    "id": 2,
+    "question": "How do you initialize state in a functional component using the `useState` hook?",
+    "options": [
+      "const [state, setState] = useState(initialState);",
+      "const state = useState(initialState);",
+      "useState(initialState);",
+      "setState(initialState);"
+    ],
+    "answer": "const [state, setState] = useState(initialState);"
+  },
+  {
+    "id": 3,
+    "question": "How do you handle form input changes in React?",
+    "options": [
+      "Using the onChange attribute with a handler function",
+      "Directly modifying the DOM",
+      "Using the onInput attribute",
+      "Using the useEffect hook"
+    ],
+    "answer": "Using the onChange attribute with a handler function"
+  },
+  {
+    "id": 4,
+    "question": "How do you add a new item to a list in state in React?",
+    "options": [
+      "Using the spread operator and setState",
+      "Directly modifying the state variable",
+      "Using the append method",
+      "Using the add method"
+    ],
+    "answer": "Using the spread operator and setState"
+  },
+  {
+    "id": 5,
+    "question": "How do you pass data from a child component to a parent component?",
+    "options": [
+      "Using props",
+      "Using state",
+      "Using callback functions passed as props",
+      "Using context"
+    ],
+    "answer": "Using callback functions passed as props"
+  },
+  {
+    "id": 6,
+    "question": "What is the purpose of the `key` prop in a list of elements?",
+    "options": [
+      "To give each element a unique identifier",
+      "To style each element",
+      "To bind event handlers to each element",
+      "To pass data to each element"
+    ],
+    "answer": "To give each element a unique identifier"
+  },
+  {
+    "id": 7,
+    "question": "How do you handle asynchronous operations in React?",
+    "options": [
+      "Using Promises",
+      "Using async/await",
+      "Using the useEffect hook",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 8,
+    "question": "How do you conditionally render elements in React?",
+    "options": [
+      "Using the ternary operator",
+      "Using if statements",
+      "Using && (logical AND)",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 9,
+    "question": "How do you lift state up in React?",
+    "options": [
+      "By moving the state to the closest common ancestor of the components that need it",
+      "By using context",
+      "By using Redux",
+      "By using refs"
+    ],
+    "answer": "By moving the state to the closest common ancestor of the components that need it"
+  },
+  {
+    "id": 10,
+    "question": "What is the purpose of the `useEffect` hook in React?",
+    "options": [
+      "To perform side effects in functional components",
+      "To manage state",
+      "To handle form inputs",
+      "To create context"
+    ],
+    "answer": "To perform side effects in functional components"
+  }
+]

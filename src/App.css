@@ -1,5 +1,79 @@
 .App {
   text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  margin: 30px;
+  padding: 4px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+li {
+  margin: 17px;
+  border: 2px solid rgb(229, 227, 227);
+  border-radius: 5px;
+  box-shadow: 1px 1px lightgray;
+  padding: 10px;
+}
+
+.quiz {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.question-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.pagination-section {
+  max-width: 300px;
+  padding: auto;
+  margin: auto;
+  border: 2px solid rgb(229, 227, 227);
+  border-radius: 5px;
+}
+
+.option-button {
+  padding: 0;
+  border: 0;
+  background-color: white;
+  font-size: 17px;
+  width: 100%;
+}
+
+.navigate-button {
+  border: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  box-shadow: 1px 1px lightgray;
+  background-color: rgb(229, 227, 227);
+}
+
+html {
+  background-color: rgb(78, 78, 255);
+}
+
+h1 {
+  color: rgb(228, 91, 91);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .App-logo {
